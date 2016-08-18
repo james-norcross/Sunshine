@@ -22,7 +22,8 @@ public class MainActivityFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
         // fake data
-        ArrayList<String> fakeData = null;
+        ArrayList<String> fakeData = new ArrayList<String>();
+
         fakeData.add("Today - Cloudy - 83/65");
         fakeData.add("Tomorrow - Thunderstorms - 81/63");
         fakeData.add("Saturday - Partly Cloudy - 83/65");
